@@ -1,5 +1,5 @@
 ---
-title: 前端开发环境搭建-whistle+OmegaSwitchy
+title: 前端开发环境搭建-whistle+SwitchyOmega
 date: 2022-12-23 23:44:00
 categories:
 - 浏览器
@@ -11,11 +11,11 @@ tags:
 - 学习笔记
 ---
 
-# 前端开发环境搭建-whistle+OmegaSwitchy
+# 前端开发环境搭建-whistle+SwitchyOmega
 
 ## 简介
 
-在8月底的时候由于开发环境需要前端把`localhost`代理到域名下以实现cookie的共享，采用了`nginx`+`docker`的方案。然而这种方案显然是比较麻烦的，有没有比较简单一点的办法呢？这篇文章的`whistle`+`OmegaSwitchy`就是比较简单的替代方案。
+在8月底的时候由于开发环境需要前端把`localhost`代理到域名下以实现`cookie`的共享，采用了`nginx`+`docker`的方案。然而这种方案显然是比较麻烦的，有没有比较简单一点的办法呢？这篇文章的`whistle`+`SwitchyOmega`就是比较简单的替代方案。
 
 ## whistle
 
@@ -29,9 +29,9 @@ tags:
 
 这样就可以将`localhost:8080`代理到`http://www.baidu.com`。
 
-## OmegaSwitchy
+## SwitchyOmega
 
-现在我们已经可以把`localhost`代理到域名下，但本地开发的时候浏览器肯定也得访问域名，不然`cookie`还是不方便注入。因此，使用OmegaSwitchy这个插件把浏览器域名代理到`localhost:8899`即可。
+现在我们已经可以把`localhost`代理到域名下，但本地开发的时候浏览器肯定也得访问域名，不然`cookie`还是不方便注入。因此，使用SwitchyOmega这个插件把浏览器域名代理到`localhost:8899`即可。
 
 ## 流程图
 
