@@ -1,5 +1,5 @@
 ---
-title: 开发环境搭建-Docker+Nginx
+title: 前端开发环境搭建-Docker+Nginx
 date: 2022-08-20 13:20:00
 categories:
 - Docker
@@ -11,7 +11,7 @@ tags:
 - 学习笔记
 ---
 
-# 开发环境搭建-Docker+Nginx
+# 前端开发环境搭建-Docker+Nginx
 
 ## 简介
 
